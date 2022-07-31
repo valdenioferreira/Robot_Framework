@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220724 13:24:21.269" rpa="false" schemaversion="3">
+<suite id="s1" name="Checkbox" source="C:\Robot_Framework\web\checkbox.robot">
+<test id="s1-t1" name="Validando se o titulo existe" line="8">
+<kw name="Inicia sessão" type="SETUP">
+<msg timestamp="20220724 13:24:21.345" level="FAIL">No keyword with name 'Inicia sessão' found.</msg>
+<status status="FAIL" starttime="20220724 13:24:21.345" endtime="20220724 13:24:21.345"/>
+</kw>
+<kw name="Encerra sessão" type="TEARDOWN">
+<msg timestamp="20220724 13:24:21.349" level="FAIL">No keyword with name 'Encerra sessão' found.</msg>
+<status status="FAIL" starttime="20220724 13:24:21.348" endtime="20220724 13:24:21.349">No keyword with name 'Encerra sessão' found.</status>
+</kw>
+<status status="FAIL" starttime="20220724 13:24:21.340" endtime="20220724 13:24:21.349">Setup failed:
+No keyword with name 'Inicia sessão' found.
+
+Also teardown failed:
+No keyword with name 'Encerra sessão' found.</status>
+</test>
+<test id="s1-t2" name="Marcando opção com ID" line="11">
+<kw name="Inicia sessão" type="SETUP">
+<msg timestamp="20220724 13:24:21.360" level="FAIL">No keyword with name 'Inicia sessão' found.</msg>
+<status status="FAIL" starttime="20220724 13:24:21.359" endtime="20220724 13:24:21.360"/>
+</kw>
+<kw name="Encerra sessão" type="TEARDOWN">
+<msg timestamp="20220724 13:24:21.365" level="FAIL">No keyword with name 'Encerra sessão' found.</msg>
+<status status="FAIL" starttime="20220724 13:24:21.365" endtime="20220724 13:24:21.365">No keyword with name 'Encerra sessão' found.</status>
+</kw>
+<status status="FAIL" starttime="20220724 13:24:21.353" endtime="20220724 13:24:21.365">Setup failed:
+No keyword with name 'Inicia sessão' found.
+
+Also teardown failed:
+No keyword with name 'Encerra sessão' found.</status>
+</test>
+<test id="s1-t3" name="Marcando opão com CSS Selector" line="16">
+<kw name="Inicia sessão" type="SETUP">
+<msg timestamp="20220724 13:24:21.375" level="FAIL">No keyword with name 'Inicia sessão' found.</msg>
+<status status="FAIL" starttime="20220724 13:24:21.375" endtime="20220724 13:24:21.376"/>
+</kw>
+<kw name="Encerra sessão" type="TEARDOWN">
+<msg timestamp="20220724 13:24:21.381" level="FAIL">No keyword with name 'Encerra sessão' found.</msg>
+<status status="FAIL" starttime="20220724 13:24:21.381" endtime="20220724 13:24:21.382">No keyword with name 'Encerra sessão' found.</status>
+</kw>
+<status status="FAIL" starttime="20220724 13:24:21.370" endtime="20220724 13:24:21.382">Setup failed:
+No keyword with name 'Inicia sessão' found.
+
+Also teardown failed:
+No keyword with name 'Encerra sessão' found.</status>
+</test>
+<status status="FAIL" starttime="20220724 13:24:21.274" endtime="20220724 13:24:21.386"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Checkbox">Checkbox</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220724 13:24:21.336" level="ERROR">Error in file 'C:\Robot_Framework\web\checkbox.robot' on line 2: Resource file 'base.robot' does not exist.</msg>
+</errors>
+</robot>
